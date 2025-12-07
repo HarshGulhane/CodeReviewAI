@@ -44,33 +44,28 @@ streamlit run app.py
 ---
 
 **Features**
-Automated Code Analysis
+1. Automated Code Analysis
 Reviews for readability, structure, and bugs.
 
-LLM-Powered Insights
+2. LLM-Powered Insights
 Uses Groq LLaMA 3 for fast, accurate suggestions.
 
-Easy File Upload
+3. Easy File Upload
 Accepts .py, .java, .cpp, .js, and other plain text code files.
 
-Detailed Improvement Report
+4. Detailed Improvement Report
 Includes actionable suggestions and optional improved code samples.
 
-Optional History Tracking
+5. Optional History Tracking
 Store and retrieve previous code reviews using SQLite.
-
-Simple & Clean UI
-Streamlit-based interface with instant feedback.
-
 
 ---
 
 **Notes**
-Requires an active Groq API Key.
-Best suited for text-based code files (up to 200MB).
-Internet connection needed for LLM processing.
-Streamlit handles both UI and backend execution.
-
+1. Requires an active Groq API Key.
+2. Best suited for text-based code files (up to 200MB).
+3. Internet connection needed for LLM processing.
+4. Streamlit handles both UI and backend execution.
 
 ---
 
