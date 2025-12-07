@@ -5,6 +5,9 @@ It analyzes readability, structure, modularity, potential bugs, and coding best 
 
 Built using **Streamlit** and integrated with **Groq LLaMA 3**, CodeReviewAI provides instant and high-quality code analysis suitable for developers, students, and code reviewers.
 
+
+---
+
 **How It Works**
 1. User uploads a source code file through the Streamlit interface.  
 2. The application reads the file content.  
@@ -39,6 +42,8 @@ GROQ_API_KEY=your_groq_api_key_here
     streamlit run app.py
 
 
+---
+
 **Features**
 🔍 Automated Code Analysis
 Reviews for readability, structure, and bugs.
@@ -59,12 +64,16 @@ Store and retrieve previous code reviews using SQLite.
 Streamlit-based interface with instant feedback.
 
 
+---
+
 **Notes**
 Requires an active Groq API Key.
 Best suited for text-based code files (up to 200MB).
 Internet connection needed for LLM processing.
 Streamlit handles both UI and backend execution.
 
+
+---
 
 **Demo Video**
 Watch the full working demo here:
