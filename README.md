@@ -23,44 +23,43 @@ Built using **Streamlit** and integrated with **Groq LLaMA 3**, CodeReviewAI pro
 ---
 
 **Setup and Run**
-1️⃣ Clone the repository
-git clone https://github.com/<your-username>/CodeReviewAI.git
+1. Clone the repository
 cd CodeReviewAI
 
-2️⃣ Create and activate a virtual environment
+2. Create and activate a virtual environment
 python -m venv venv
 venv/Scripts/activate      
 
-3️⃣ Install required packages
+3. Install required packages
 pip install -r requirements.txt
 
-4️⃣ Add your Groq API key
+4. Add your Groq API key
 Create a .env file in the project root:
 GROQ_API_KEY=your_groq_api_key_here
 
-5️⃣ Run the Streamlit app
-    streamlit run app.py
+5. Run the Streamlit app
+streamlit run app.py
 
 
 ---
 
 **Features**
-🔍 Automated Code Analysis
+Automated Code Analysis
 Reviews for readability, structure, and bugs.
 
-🧠 LLM-Powered Insights
+LLM-Powered Insights
 Uses Groq LLaMA 3 for fast, accurate suggestions.
 
-📤 Easy File Upload
+Easy File Upload
 Accepts .py, .java, .cpp, .js, and other plain text code files.
 
-📄 Detailed Improvement Report
+Detailed Improvement Report
 Includes actionable suggestions and optional improved code samples.
 
-🗄️ Optional History Tracking
+Optional History Tracking
 Store and retrieve previous code reviews using SQLite.
 
-⚡ Simple & Clean UI
+Simple & Clean UI
 Streamlit-based interface with instant feedback.
 
 
