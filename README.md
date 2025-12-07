@@ -15,7 +15,7 @@ Built using **Streamlit** and integrated with **Groq LLaMA 3**, CodeReviewAI pro
    - Potential bugs  
    - Best practice adherence  
    - Suggestions for improvement  
-5. The review is displayed in the UI, and optionally stored in a local SQLite database.
+5. The review is displayed in the UI, and opt   ionally stored in a local SQLite database.
 
 ---
 
@@ -26,19 +26,17 @@ cd CodeReviewAI
 
 2️⃣ Create and activate a virtual environment
 python -m venv venv
-venv/Scripts/activate       # Windows
+venv/Scripts/activate      
 
 3️⃣ Install required packages
 pip install -r requirements.txt
 
 4️⃣ Add your Groq API key
-
 Create a .env file in the project root:
-
 GROQ_API_KEY=your_groq_api_key_here
 
 5️⃣ Run the Streamlit app
-streamlit run app.py
+    streamlit run app.py
 
 
 **Features**
